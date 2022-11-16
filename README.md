@@ -24,5 +24,10 @@
  * We can directly export the data to servers , but since we are using free version of Tableau we will export the data locally.
 
 
-####  Importing the cleaned data into Tableau Public
+####  Creating field for Bonus calculation
 
+* We will import the exported data from above steps into Tableau Public
+* As per the bussines case employees who have made sales of more than $5001 will get 30% of bonus of sales, 20% bonus if sales is b/w $2000 to $5000, 10% bonus if sales is less than $2000.
+* Creating a field 'Bonus Amount' by applying IF ELSE condition 
+
+![Bonusl calsculation](https://user-images.githubusercontent.com/115392900/202226988-6c1f239e-5767-491a-a39e-d406b836b660.png)
