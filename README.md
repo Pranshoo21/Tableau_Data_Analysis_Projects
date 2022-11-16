@@ -3,7 +3,7 @@
 # **Bussiness Case -01** Assigning bonus to employees based on their sales
 
 * **Objective** - Create a report where management will able to see the bonus amount for employees based on the regions and the name of the employees should be like if the first name is Rahul Tiwari then it should be displayed as R.Tiwari in report.
-* **Software Used** - Tableau Prep and Tableau Desktop
+* **Software Used** - Tableau Prep (trial version) and Tableau Public 
 * **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/blob/340502297fce5f2f623cfb6dc1de17d84d5ff07e/OfficeSupplies.csv
 
 ### Approach
@@ -17,4 +17,12 @@
 ![Sales Field](https://user-images.githubusercontent.com/115392900/202212189-4ae38ad3-8e9e-4194-8be8-3948821ae052.png)
 
 * Creating another field 'Name' to concatenate first character from 'First Name' and 'Last Name'.
-* ![Combined name](https://user-images.githubusercontent.com/115392900/202217361-418c2ebe-6660-4618-a348-947d0265164f.png)
+ ![Combined name](https://user-images.githubusercontent.com/115392900/202217361-418c2ebe-6660-4618-a348-947d0265164f.png)
+ 
+ * Removing the fields 'First Name'  and 'Last Name' since we don't require these two fiels for our current analysis.
+ * We will add an output step to export the data.
+ * We can directly export the data to servers , but since we are using free version of Tableau we will export the data locally.
+
+
+####  Importing the cleaned data into Tableau Public
+
