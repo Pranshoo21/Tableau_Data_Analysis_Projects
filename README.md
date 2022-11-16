@@ -13,4 +13,5 @@
 
 ####  Creating calculated field
 * Creating a 'Sales' field (Units* Unit Cost) against each employee using Tableau Prep.
-* ![alt text](Sales Field.png)
+
+![Sales Field](https://user-images.githubusercontent.com/115392900/202212189-4ae38ad3-8e9e-4194-8be8-3948821ae052.png)
