@@ -15,3 +15,6 @@
 * Creating a 'Sales' field (Units* Unit Cost) against each employee using Tableau Prep.
 
 ![Sales Field](https://user-images.githubusercontent.com/115392900/202212189-4ae38ad3-8e9e-4194-8be8-3948821ae052.png)
+
+* Creating another field 'Name' to concatenate first character from 'First Name' and 'Last Name'.
+* ![Combined name](https://user-images.githubusercontent.com/115392900/202217361-418c2ebe-6660-4618-a348-947d0265164f.png)
