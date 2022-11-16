@@ -6,7 +6,11 @@
 * **Software Used** - Tableau Prep and Tableau Desktop
 * **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/blob/340502297fce5f2f623cfb6dc1de17d84d5ff07e/OfficeSupplies.csv
 
-## Solution
+### Approach
 
 * On looking the datasets, we observe that we don't have sales table and the first and last name of emp are in different columns.
-* We will apply data manipulation techniques and use calculated field and functions to get the desired output
+* We will apply data manipulation techniques and use calculated field and functions to get the desired output.
+
+####  Creating calculated field
+* Creating a 'Sales' field (Units* Unit Cost) against each employee using Tableau Prep.
+* 
