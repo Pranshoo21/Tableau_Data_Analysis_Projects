@@ -33,7 +33,8 @@
 * Order in descending order of bonus amount in all the reigons.
 * Adding data labels and formatting the number as currency.
 
-  ![image](https://user-images.githubusercontent.com/115392900/202393816-69053837-3803-4f45-9a9b-223df3064745.png)
+  ![image](https://user-images.githubusercontent.com/115392900/202396309-e7a2ac0a-910f-48a5-8a06-7293e0b065aa.png)
+
 
 
 
