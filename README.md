@@ -98,11 +98,10 @@ However, they have following requirements which they want to know if that is pos
   ![image](https://user-images.githubusercontent.com/115392900/202522500-1b55a6bb-33a8-4cd1-9dea-ed13a579aa2b.png)
   
   ####  For our second objective
-    * In order to calculate the difference b/w Actual sales and target sales we will create a calcualted field with
-    formula = SUM([Sales])-SUM([Target].[Target]).
-    * We will update our visual by adding the calculated field to show the difference in Actual sales and target sales.
+   * In order to calculate the difference b/w Actual sales and target sales we will create a calcualted field with formula = SUM([Sales])-SUM([Target].[Target]).
+   * We will update our visual by adding the calculated field to show the difference in Actual sales and target sales.
     
-    ![image](https://user-images.githubusercontent.com/115392900/202523554-c4bae1cd-5203-4e25-8152-ac6465a32691.png)
+   ![image](https://user-images.githubusercontent.com/115392900/202523554-c4bae1cd-5203-4e25-8152-ac6465a32691.png)
 
 
   
