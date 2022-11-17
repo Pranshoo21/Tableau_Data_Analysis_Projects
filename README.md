@@ -75,12 +75,5 @@ However, they have following requirements which they want to know if that is pos
 
 * As per our objctive we have now the the combined data of both US and EU country segregated by their reigons.
 
-# **Bussiness Case -03** Data From Hetrogenous source - Crossdatabasejoin
-* **Objective** - The requirement is to create some visuals for Human Resource (HR) analytics. Following things 
-first we have to explain to the business before we go ahead with the actual project. • Concept of joins • How can we join two tables in Tableau • Can we use Tableau prep, if yes what all benefits we will have? 
-Excited with the functionality business comes up with more requirements. They say that they have 
-data in both Oracle and Excel. They want to somehow join those data and do the analysis. Try to help 
-this demanding business so that we can expect more work in future.
-
-* **Software Used** - Tableau Prep (trial version) and Tableau Desktop (trial version) 
-* **Datasets** - The datasets used for this case
+# **Bussiness Case -03** Data Blending
+* **Objective** - The Project requirement is to deliver a visualization which will have details about the actual sales and the target sales by Categories.The data will be of diferent granualarity and normal data joining will not help. With the functionality of data blending create a visualization which will show the above requirements. Also create a view in the same vsualization which will help the business to understand how much the difference is from the actual sales and the target sales.
