@@ -78,6 +78,33 @@ However, they have following requirements which they want to know if that is pos
 # **Bussiness Case -03** Data Blending
 * **Objective** - The Project requirement is to deliver a visualization which will have details about the actual sales and the target sales by Categories.The data will be of diferent granualarity and normal data joining will not help. With the functionality of data blending create a visualization which will show the above requirements. Also create a view in the same vsualization which will help the business to understand how much the difference is from the actual sales and the target sales.
 * **Software Used** - Tableau Desktop Public  
-* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-02
+* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case-03
 
 ### Approach
+
+####  For our first objective -
+  * We will import the .xlsx file into tableau desktop.
+  * Our datasource which is coming from the excel file has three tables ListOfOrders, OrderBreakdown and SalesTarget.
+  * Apllying Inner Join on [OrderID] from table ListOfOrders and OrderBreakdown (renaming as Actual Sales)
+
+  ![image](https://user-images.githubusercontent.com/115392900/202517044-0712c987-7901-4d37-894f-58b0186b62f6.png)
+  * This will give me the sales done against each orderID at different period of time.
+  * Now to get the target sales we will do data blending.
+  * For this we will again improt the .xlsx file as new data source and import the SalesTarget table (renaming as Target).
+  * Now in order to get the target sales data we need to define relationship b/w categories of Actual Sales and Target (keeping Actual Sales as primary table).
+  * To get the target sales data for different time period we need to define relationship b/w Order date of Actual Sales and Target (keeping Actual Sales as primary table).
+  * We will create the visuals for our first objective
+  
+  ![image](https://user-images.githubusercontent.com/115392900/202522500-1b55a6bb-33a8-4cd1-9dea-ed13a579aa2b.png)
+  
+  ####  For our second objective
+    * In order to calculate the difference b/w Actual sales and target sales we will create a calcualted field with
+    formula = SUM([Sales])-SUM([Target].[Target]).
+    * We will update our visual by adding the calculated field to show the difference in Actual sales and target sales.
+    
+    ![image](https://user-images.githubusercontent.com/115392900/202523554-c4bae1cd-5203-4e25-8152-ac6465a32691.png)
+
+
+  
+  
+
