@@ -48,7 +48,7 @@ However, they have following requirements which they want to know if that is pos
   3. Also next year they are planning to expand the business to Europe so they want a solution which 
      can take care of both the locations data for analysis.
 
-* **Software Used** - Tableau Prep (trial version) and Tableau Desktop (trial version) 
+* **Software Used** - Tableau Prep (trial version) and Tableau Desktop Public  
 * **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-02
 
 ### Approach
@@ -77,3 +77,7 @@ However, they have following requirements which they want to know if that is pos
 
 # **Bussiness Case -03** Data Blending
 * **Objective** - The Project requirement is to deliver a visualization which will have details about the actual sales and the target sales by Categories.The data will be of diferent granualarity and normal data joining will not help. With the functionality of data blending create a visualization which will show the above requirements. Also create a view in the same vsualization which will help the business to understand how much the difference is from the actual sales and the target sales.
+* **Software Used** - Tableau Desktop Public  
+* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-02
+
+### Approach
