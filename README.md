@@ -25,7 +25,7 @@
 
 ####  Creating data visulaization
 
-* Creating a bar chart based on reigon and names of employees. 
+* Creating a bar chart based on reigon and names of employees.
 * Order in descending order of bonus amount in all the reigons.
 * Adding data labels and formatting the number as currency.
 
@@ -33,7 +33,9 @@
 
 # **Bussiness Case -02** Extract vs Live and Union
 * **Objective** - One of the retail chains in USA looking to implement Tableau as its business intelligence needs. 
-However, they have following requirements which they want to know if that is possible or not using 
+However, they have following requirements which they want to know if that is possible or not using [US Data.csv](https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/files/10029911/US.Data.csv)[US Data.csv](https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/files/10029913/US.Data.csv)
+
+
 Tableau. The requirements are as follows:
 
   1. Business looking for a quick reporting solution and as per them their data will get refresh on daily 
