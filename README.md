@@ -17,9 +17,9 @@
 
 * On looking the datasets, we observe that we don't have sales table and the first and last name of emp are in different columns.
 * We will apply data manipulation techniques and use calculated field and functions to get the desired output.
-* Creating a new field [Sales] to calculate the sales dones by each employee with formula ([Units]*[Unit Cost])
-* Creating another new field [Name] with formula  LEFT([First Name],1) + '.' + [Last Name]
-* Creating another new field [Bonus] with formula 
+* Creating a new field [Sales] to calculate the sales dones by each employee with formula = ([Units]*[Unit Cost])
+* Creating another new field [Name] with formula = LEFT([First Name],1) + '.' + [Last Name]
+* Creating another new field [Bonus] with formula =
     IF SUM([Sales])>5000 THEN SUM([Sales])*0.30
     ELSEIF SUM([Sales])>=2000 AND SUM([Sales])<=5000 THEN SUM([Sales])*0.20
     ELSE SUM([Sales])*0.10
