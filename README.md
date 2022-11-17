@@ -52,4 +52,4 @@ Tableau. The requirements are as follows:
      can take care of both the locations data for analysis.
 
 * **Software Used** - Tableau Prep (trial version) and Tableau Public 
-* **Datasets** - The datasets used for this case 
+* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-02
