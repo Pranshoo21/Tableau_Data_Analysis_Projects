@@ -33,10 +33,7 @@
 
 # **Bussiness Case -02** Extract vs Live and Union
 * **Objective** - One of the retail chains in USA looking to implement Tableau as its business intelligence needs. 
-However, they have following requirements which they want to know if that is possible or not using [US Data.csv](https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/files/10029911/US.Data.csv)[US Data.csv](https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/files/10029913/US.Data.csv)
-
-
-Tableau. The requirements are as follows:
+However, they have following requirements which they want to know if that is possible or not using Tableau. The requirements are as follows:
 
   1. Business looking for a quick reporting solution and as per them their data will get refresh on daily 
      basis but that refresh will happen after 15 hours after the previous load. Now the requirement is 
@@ -51,5 +48,39 @@ Tableau. The requirements are as follows:
   3. Also next year they are planning to expand the business to Europe so they want a solution which 
      can take care of both the locations data for analysis.
 
-* **Software Used** - Tableau Prep (trial version) and Tableau Public 
+* **Software Used** - Tableau Prep (trial version) and Tableau Desktop (trial version) 
 * **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-02
+
+### Approach
+
+####  For our first objective -
+  * Importing the data [US Data] and [EU Data] into tableau desktop.
+  * Setting the connection types as Extract as per our use case, we can add filters to extract specific type of data from data source.
+  * Setting up the refresh rate as 15 hours.
+  * Saving the file as .hyper file since we have created a snapshot of the original datasource for our analysis.
+
+####  For our second objective -
+*  Importing the data [US Data] and [EU Data] into tableau desktop.
+*  Setting the connection type as Live
+*  Since we want that the file should be based on specific region , we can put data source filter (since we are apllying filter at the datasource level) in the starting only while importing data.
+*  Applying filter for Central, East, South and West and saving the file respectibely for each reigon.
+
+####  For our third objective -
+*  Here we want the data from both US and EU to be combined as one (both have same schema).
+*  Since both US and EU have same reigons name (Central, East, South and West) we need to differentiate b/w reigons of US and reigons of EU.
+*  Creating Union of US Data and EU Data.
+*  Creating a calculated field [Reigon1] with formula = ( IF [Country]= 'United States' THEN [Region]+ '_' + 'US' else [Region] + '_' + 'EU' END ) to get the table as shown below
+
+   ![image](https://user-images.githubusercontent.com/115392900/202427818-c894b9c5-f6b0-4cee-8237-629643289ee4.png)
+
+* As per our objctive we have now the the combined data of both US and EU country segregated by their reigons.
+
+# **Bussiness Case -03** Data From Hetrogenous source - Crossdatabasejoin
+* **Objective** - The requirement is to create some visuals for Human Resource (HR) analytics. Following things 
+first we have to explain to the business before we go ahead with the actual project. • Concept of joins • How can we join two tables in Tableau • Can we use Tableau prep, if yes what all benefits we will have? 
+Excited with the functionality business comes up with more requirements. They say that they have 
+data in both Oracle and Excel. They want to somehow join those data and do the analysis. Try to help 
+this demanding business so that we can expect more work in future.
+
+* **Software Used** - Tableau Prep (trial version) and Tableau Desktop (trial version) 
+* **Datasets** - The datasets used for this case
