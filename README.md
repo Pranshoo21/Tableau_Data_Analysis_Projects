@@ -109,6 +109,77 @@ However, they have following requirements which they want to know if that is pos
 Business is also interested in finding the male and female count and for that they are looking for donut chart. Which jobs the customers are in that will give lot of understanding to the business about how to go about the offers so they need more insights about the job profile of customers. Create an interactive dashboard which will help business to take quick decisions in no time.
 
 * **Software Used** - Tableau Desktop Public  
+* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20Case%20-04
+
+### Approach
+
+####  For our first objective -
+  * We will import the datasets into tableau.
+  * To create a map view we need to have a geographic dimension. Since our field Reigon is string we will chnge the data type to geographic.
+  * We will then create a map chart , and edit the location to United Kindom since the reigons are of UK, if we do don't do this tableau will not be able to mark the locations on map ( by default tableau takes the server country).
+  * Putting a coutn distinct measure on Customer ID to get number of customers in each reigon.
+    
+ ![image](https://user-images.githubusercontent.com/115392900/202642442-601b098e-76bf-427d-9f0f-f162211c937c.png)
+    
+ ####  For our second objective -  
+   *  In order to know the age groups of customers , we will create bins on field [Age] with bin size to 4.
+   *  Then we will create histogram chart b/w Age bins and disctinct count of [Customer ID].
+     
+   ![image](https://user-images.githubusercontent.com/115392900/202656476-baf43d85-6931-4013-873f-774b6c334204.png)
+     
+   *  We can also add a dynamic bin size which gives the user flexibitly to change the bin size as per theri need.
+   *  For that we will create a new parameter by using Create Parameter and going in the range section.
+   *  There we will set the minimum as 5 and maximum as 30 ( that means bin size can range from 5 to 30).
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202658404-d9647bc1-21f7-49ac-aec8-487df931c52c.png)  
+     
+   * Once we have created the Age bin parameter , we will link it to the field [Age(bin)] by going in edit section.
+   * There we will select Size of bins as Age Bin Parameter instead of fixed value.
+   * Then we will slect show parameter from the Age Bin parameter.
+   * Now we can change the size of bins as per our use case with the help of slider.
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202661869-e055abe8-e992-4b19-a9dc-801e336aebb1.png)
+   
+   * Now we will create another histogram for Balance by customer. This chart will give us the idea about the number of custumers falling in different amount of balance groups.
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202665111-ad1438ee-ae20-402f-b26e-e22331db4785.png)
+
+ ####  For our third objective - 
+   *  Since our business case requires donut chart (but donut chart is not available by default in tableau) therefore we will first make a pier chart b/w [gender] and  distinct count to customers.
+   *  Then we will create a calculated field with zero calculation and create the chart as shown below
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202668422-6e3cb677-3f69-47f6-b45e-6f2e0d9d7c8d.png)
+
+   * Then we place the below pie chart in dual axis and remove all marks for that pie chart and increase the size of first pie chart.
+   * We will change the color of below pie chart to white, this will give us the required donut chart.
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202670031-35e99a57-5fcf-427c-a409-c83fafe77203.png)
+
+   ####  For our fourth objective -
+   * We will make the chart as shown below
+     
+   ![image](https://user-images.githubusercontent.com/115392900/202671852-3fb39061-d0ab-4ca9-9436-a56b845bfb80.png)
+
+   ####  For our fifth objctive  - 
+   * Here we have to create a dashboard from all the charts we have created above.
+   
+   ![image](https://user-images.githubusercontent.com/115392900/202682434-0637f276-df8c-45fd-b694-d1ca8619ea98.png)
+
+   # **Business Case -05** Sets and Parameters
+
+* **Objective** - You are working in a company and you have got the data from internet where we will have our competitor's financial information. We nee to analyze where we are standing. Are we really doing well as compare to our competitors. First - Create a dynamic scatter plot with the help of sets and parameters so that user will be able to select the values as per his requirements. Second- Create the report as dynamic as possible with the help of parameters.
+
+* **Software Used** - Tableau Desktop Public  
 * **Datasets** - The datasets used for this case 
+
+
+   
+
+
+   
+   
+
+   
+
   
 
