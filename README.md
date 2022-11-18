@@ -103,7 +103,12 @@ However, they have following requirements which they want to know if that is pos
     
    ![image](https://user-images.githubusercontent.com/115392900/202523554-c4bae1cd-5203-4e25-8152-ac6465a32691.png)
 
+# **Business Case -04** Creating Dashboard using bins,parameter and donuts (Dashboard and Story)
 
-  
+* **Objective** - To create a customer segmentation dashboard with various visuals. The first visual is a map view which will give us the idea about the customers by state. What is the age range of our customers and what balance they have in their account, we need to create a dynamic histogram to achieve this particular visuals.
+Business is also interested in finding the male and female count and for that they are looking for donut chart. Which jobs the customers are in that will give lot of understanding to the business about how to go about the offers so they need more insights about the job profile of customers. Create an interactive dashboard which will help business to take quick decisions in no time.
+
+* **Software Used** - Tableau Desktop Public  
+* **Datasets** - The datasets used for this case 
   
 
