@@ -186,7 +186,12 @@ Business is also interested in finding the male and female count and for that th
 
 ![image](https://user-images.githubusercontent.com/115392900/202846213-e0d4fa81-2f2b-43f4-adf1-bc9739fc5f47.png)
 
+####  Creating visuals - 
+* Once we hae our processed file , we will import that into tableau desktop.
+* We will then create a scatter plot chart b/w fertility rate and life expectancy , with details of population and over the years.
+* We will create animation on years such that as the years changes our chart changes acordingly.
 
+![image](https://user-images.githubusercontent.com/115392900/202848498-03767f6f-4fb7-465c-8b75-030a13c10969.png)
 
 
 
