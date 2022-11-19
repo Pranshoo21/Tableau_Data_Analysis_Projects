@@ -176,8 +176,8 @@ Business is also interested in finding the male and female count and for that th
 # **Business Case -06** Animations
 * **Objective** - Create a dashbaord to deliver an animated report showing how populations of countries acrss the world have been developing over the last 50 years.The stakeholders of this assignment are interested to see overall trends in fertility , life expectency and population . In addition to overall tredns they would like to be able to drill into individual countries.
 
-* **Software Used** - Tableau Desktop Public  
-* **Datasets** - The datasets used for this case 
+* **Software Used** - Tableau Desktop Public  and Tableau Prep
+* **Datasets** - The datasets used for this case https://github.com/Pranshoo21/Tableau_Data_Analysis_Projects/tree/main/Business%20case%20-06
 
 ### Approach
 
