@@ -179,6 +179,16 @@ Business is also interested in finding the male and female count and for that th
 * **Software Used** - Tableau Desktop Public  
 * **Datasets** - The datasets used for this case 
 
+### Approach
+
+####  Data preparation -
+* Since we have data coming rom multiple tables we will do some data prep in tableau prep with following flow
+
+![image](https://user-images.githubusercontent.com/115392900/202846213-e0d4fa81-2f2b-43f4-adf1-bc9739fc5f47.png)
+
+
+
+
 
 
    
